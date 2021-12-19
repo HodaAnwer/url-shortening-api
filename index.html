@@ -25,7 +25,16 @@
     
     @font-face {
       font-family: poppins2;
+      src: url(font/Poppins/Poppins-Bold.ttf);
+    }
+    
+    @font-face {
+      font-family: poppins3;
       src: url(font/Poppins/Poppins-SemiBold.ttf);
+    }
+    @font-face {
+      font-family: poppins4;
+      src: url(font/Poppins/Poppins-Regular.ttf);
     }
     
     html {
@@ -51,7 +60,7 @@
       display: flex;
       margin-top: 40px;
       margin-bottom: 70px;
-      padding-left: 8%;
+      padding-left: 10%;
     }
     
     #logoDiv {
@@ -66,7 +75,7 @@
       padding-right: 5%;
       text-decoration: none;
       color: hsl(257, 7%, 63%);
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 0.8vw;
     }
     
@@ -82,7 +91,7 @@
       text-decoration: none;
       color: hsl(257, 7%, 63%);
       padding-right: 5%;
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 0.8vw;
     }
     
@@ -96,7 +105,7 @@
       background-color: hsl(180, 66%, 49%);
       color: white;
       border: none;
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 0.8vw;
     }
     
@@ -106,7 +115,7 @@
     
     #left-rightDiv {
       display: flex;
-      padding-left: 8%;
+      padding-left: 10%;
     }
     
     #leftDiv {
@@ -121,7 +130,7 @@
     
     #p-leftDiv {
       color: hsl(257, 7%, 63%);
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 1.3vw;
       padding-right: 8%;
     }
@@ -133,7 +142,7 @@
       background-color: hsl(180, 66%, 49%);
       color: white;
       border: none;
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 1.1vw;
     }
     
@@ -144,6 +153,8 @@
     #form-id {
       display: flex;
       z-index: 2;
+      padding-right: 0px;
+      padding-left: 0px;
     }
     
     #shortenItDiv {
@@ -151,8 +162,8 @@
       /* justify-content: center; */
       /* justify-items: center; */
       background-color: hsl(260, 8%, 14%);
-      width: 77%;
-      margin-left: 8%;
+      width: 1110px;
+      margin-left: 10%;
       margin-top: 50px;
       padding: 0%;
       /* z-index: 2; */
@@ -176,9 +187,9 @@
       /* width: 50%; */
       height: 50px;
       border-radius: 10px;
-      border: none;
+      /* border: solid; */
       /* position: absolute; */
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 1.1vw;
     }
     
@@ -186,6 +197,7 @@
       width: 60%;
       color: hsl(257, 7%, 63%);
       padding-left: 2%;
+      border: 3px solid transparent;
     }
     
     #but-shortenItDiv {
@@ -194,21 +206,81 @@
       margin-left: 1%;
       background-color: hsl(180, 66%, 49%);
       color: hsl(0, 0%, 100%);
+      border: none;
     }
     
     #but-shortenItDiv:hover {
       background-color: hsl(180, 66%, 70%);
     }
+    /* ::placeholder { */
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      /* color: hsl(0, 36%, 70%); */
+      /* opacity: 1; */
+      /* Firefox */
+    /* } */
+    
+     /* :-ms-input-placeholder { */
+      /* Internet Explorer 10-11 */
+      /* color: hsl(0, 36%, 70%); */
+    /* } */
+    
+     /* ::-ms-input-placeholder { */
+      /* Microsoft Edge */
+      /* color: hsl(0, 36%, 70%); */
+    /* } */
+    #linkResultDiv{
+      width: 1110px;
+      height: 60px;
+      display: flex;
+      background-color: white;
+      margin-left: 10%;  
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    #linkBeforShorten{
+      color: hsl(257, 7%, 63%) ;
+      font-family: poppins3;
+      font-size: 1.1vw;
+      padding-left: 3%;
+      padding-top: 20px;
+    }
+    #linkAfterShorten{
+      color: hsl(180, 66%, 49%) ;
+      font-family: poppins3;
+      font-size: 1.1vw;
+      margin-left:40% ;
+      padding-top: 20px;
+    }
+    #but-linkResultDiv{
+      width: 10%;
+      height: 35px;
+      margin-top: 13px;
+      margin-left: 37%;
+      background-color: hsl(180, 66%, 49%);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-family: poppins3;
+      font-size: 1.1vw;
+    }
+    #but-linkResultDiv:hover{
+      background-color: hsl(180, 66%, 70%);
+    }
+    /* #but-linkResultDiv:active{
+      background-color: hsl(260, 8%, 14%);
+    } */
     
     #fourDiv {
       background-color: hsl(0, 0%, 90%);
       margin-top: -80px;
       padding-top: 100px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     
     #advancedStatisticsDiv {
       width: 30%;
-      margin-left: 30%;
+      margin-left: 35%;
       margin-top: 80px;
       text-align: center;
       /* display: flex; */
@@ -222,7 +294,7 @@
     
     #p-advancedStatisticsDiv {
       color: hsl(257, 7%, 63%);
-      font-family: poppins2;
+      font-family: poppins3;
       font-size: 1vw;
     }
     
@@ -230,7 +302,7 @@
       width: 60%;
       height: 5px;
       background-color: hsl(180, 66%, 49%);
-      margin-top: 150px;
+      margin-top: 190px;
       /* margin-right: 20%; */
       margin-left: 10%;
       position: absolute;
@@ -239,45 +311,53 @@
     
     #threeDiv {
       display: flex;
-      padding-left: 8%;
+      padding-left: 10%;
       /* z-index: 2; */
       /* background-color: white; */
     }
     
     .h3-threeDiv {
-      font-family: poppins1;
-      font-size: 2vw;
+      font-family: poppins2;
+      font-size: 1.2vw;
+      margin-top: 25px;
+      margin-bottom: 15px;
     }
     
     .p-threeDiv {
       color: hsl(257, 7%, 63%);
-      font-family: poppins2;
-      font-size: 1vw;
+      font-family: poppins3;
+      font-size: 1.05vw;
+      /* margin-bottom: 25px; */
     }
     
     #brandRecognitionDiv,
     #detailedRecordsDiv,
     #fullyCustomizableDiv {
-      width: 20%;
+      width: 27%;
       background-color: white;
-      margin-right: 10%;
+      /* margin-right: 5%; */
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-bottom: 20px;
       border-radius: 5px;
       z-index: 2;
     }
     
     #brandRecognitionDiv {
-      margin-top: 30px;
-      margin-bottom: 90px;
+      margin-top: 70px;
+      margin-bottom: 150px;
     }
     
     #detailedRecordsDiv {
-      margin-top: 60px;
-      margin-bottom: 60px;
+      margin-top: 100px;
+      margin-bottom: 120px;
+      margin-right: 2%;
+      margin-left: 2%;
     }
     
     #fullyCustomizableDiv {
-      margin-top: 90px;
-      margin-bottom: 30px;
+      margin-top: 130px;
+      margin-bottom: 90px;
     }
     
     #img-brandRecognitionDiv,
@@ -316,20 +396,29 @@
     #h2-but-boostDiv {
       width: 100%;
       position: absolute;
-      margin-top: -150px;
+      margin-top: -180px;
+      /* margin-bottom: 100px; */
       /* display: flex; */
       /* justify-content: center; */
+      text-align: center;
     }
     
     #h2-boostDiv {
-      margin-left: 40%;
+      /* margin-top: 65px; */
+      color: hsl(0, 0%, 100%);
+      font-family: poppins2;
+      font-size: 2.2vw;
     }
     
     #but-boostDiv {
       background-color: hsl(180, 66%, 49%);
-      color: white;
+      color: hsl(0, 0%, 100%);
       border: none;
-      margin-left: 45%;
+      margin-top: 30px;
+      width: 10%;
+      height: 45px;
+      font-family: poppins3;
+      font-size: 1.1vw;
     }
     
     #but-boostDiv:hover {
@@ -339,13 +428,14 @@
     #bottomDiv {
       display: flex;
       background-color: hsl(260, 8%, 14%);
-      padding-bottom: 150px;
-      padding-left: 8%;
-      padding-top: 50px;
+      padding-bottom: 130px;
+      padding-top: 80px;
+      padding-left: 10%;
+      /* padding-top: 50px; */
     }
     
     #shortlyDiv {
-      width: 15%;
+      width: 25%;
       /* color: white; */
     }
     /* #img-shortlyDiv { */
@@ -354,16 +444,20 @@
     /* } */
     
     .h4-a-shortlyDiv {
-      width: 15%;
+      width: 13%;
     }
     
     .h4-shortlyDiv {
       color: hsl(0, 0%, 100%);
+      font-family: poppins3;
+      font-size: 1vw;
     }
     
     .a-shortlyDiv {
-      color: hsl(0, 0%, 80%);
+      color: hsl(0, 0%, 60%);
       text-decoration: none;
+      font-family: poppins3;
+      font-size: 0.9vw;
     }
     
     .a-shortlyDiv:hover {
@@ -372,14 +466,16 @@
     
     #socialMediaDiv {
       width: 30%;
+      padding-left: 12%;
     }
     
     #facebook {
-      width: 13px;
+      width: 20px;
+      height: 20px;
       color: hsl(260, 8%, 14%);
       background-color: hsl(0, 0%, 80%);
       text-align: center;
-      padding-top: 1px;
+      padding-top: 3px;
     }
     
     #facebook:hover {
@@ -395,6 +491,15 @@
     
     .fa:hover {
       color: hsl(180, 66%, 49%);
+    }
+    
+    #alertDiv {
+      display: block;
+      height: 40px;
+      color: hsl(0, 87%, 67%);
+      font-family: poppins4;
+      font-size: 1vw;
+      padding-top: 5px;
     }
     
     .attribution {
@@ -435,18 +540,26 @@
           <img id="img-rightDiv" src="images/illustration-working.svg" alt="illustration-working-img">
         </div>
       </div>
-      <form id="form-id">
+      <form id="form-id" onsubmit="alertFunction(event)">
         <div id="shortenItDiv">
           <div id="img-shorten-desktopDiv">
             <img id="imgDesktop-shortenItDiv" src="images/bg-shorten-desktop.svg" alt="shorten-desktop">
           </div>
           <div id="inp-but-shortenItDiv">
             <input id="inp-shortenItDiv" type="text" placeholder="Shorten a link here...">
-            <button id="but-shortenItDiv">Shorten It!</button>
+            <button id="but-shortenItDiv" type="submit">Shorten It!</button>
+            <div id="alertDiv"></div>
           </div>
         </div>
       </form>
+
+      
       <div id="fourDiv">
+        <div id="linkResultDiv">
+          <div id="linkBeforShorten"></div>
+          <div id="linkAfterShorten"></div>
+          <button id="but-linkResultDiv" onclick="butLinkResultDiv()">Copy</button>
+        </div>
         <div id="advancedStatisticsDiv">
           <h2 id="h2-advancedStatisticsDiv">Advanced Statistics</h2>
           <p id="p-advancedStatisticsDiv">Track how your links are performing across the web with our advanced statistics dashboard.
@@ -510,26 +623,52 @@
           <a class="a-shortlyDiv" href="#">Contact</a>
         </div>
         <div id="socialMediaDiv">
-          <a href="#" id="facebook" class="fa fa-facebook" onmouseover="socialMediaFunction(id)" onmouseout="socialMediaFunctionNormal(id)"></a>
-          <a href="#" id="twitter" class="fa fa-twitter" onmouseover="socialMediaFunction(id)" onmouseout="socialMediaFunctionNormal(id)"></a>
-          <a href="#" id="pinterest" class="fa fa-pinterest" onmouseover="socialMediaFunction(id)" onmouseout="socialMediaFunctionNormal(id)"></a>
-          <a href="#" id="instagram" class="fa fa-instagram" onmouseover="socialMediaFunction(id)" onmouseout="socialMediaFunctionNormal(id)"></a>
+          <a href="#" id="facebook" class="fa fa-facebook fa-lg" ></a>
+          <a href="#" id="twitter" class="fa fa-twitter fa-lg" ></a>
+          <a href="#" id="pinterest" class="fa fa-pinterest fa-lg" ></a>
+          <a href="#" id="instagram" class="fa fa-instagram fa-lg" ></a>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Hoda Anwer</a>.
     </div>
+    <script>
+      function validURL(str) {
+        var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+          '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+          '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+          '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+          '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+          '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+        return !!pattern.test(str);
+      }
+      function butLinkResultDiv() {
+        document.getElementById("but-linkResultDiv").style.backgroundColor="hsl(260, 8%, 14%)";
+        document.getElementById("but-linkResultDiv").innerHTML="copied"
+      }
+
+      async function alertFunction(e) {
+        e.preventDefault();
+        var x = document.forms["form-id"]["inp-shortenItDiv"].value;
+        if (x == "" || !validURL(x)) {
+          document.getElementById("alertDiv").innerHTML = "Please add a link";
+          // document.getElementById("inp-shortenItDiv").style =  'border-color: hsl(0, 87%, 67%) !important;';
+          document.getElementById("inp-shortenItDiv").style.borderColor ='hsl(0, 87%, 67%)';
+          // document.getElementById("inp-shortenItDiv").style.placeContent ='hsl(0, 87%, 67%)';
+        } else {
+          var y = await fetch('https://api.shrtco.de/v2/shorten?url=' + x);
+          var z = await y.json();
+          var v = z.result.full_short_link;//https://shrtco.de/docs(link API);
+          document.getElementById("linkAfterShorten").innerHTML = v;
+        }
+        // var x = document.forms["form-id"]["inp-shortenItDiv"].value;
+        // var res = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + x + "&appid=e44857c7fd3bbc4bff81aca79f81a978")
+        // var resBody = await res.json();
+        // var temp = resBody.main.temp - 273;
+        // document.getElementById("alertDiv").innerHTML = temp;
+      }
+    </script>
 </body>
 
 </html>
